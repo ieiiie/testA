@@ -20,9 +20,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # 默认用mysql
         'NAME': APP_ID,                        # 数据库名 (默认与APP_ID相同)
-        'USER': 'rootxy',                        # 你的数据库user
-        'PASSWORD': '810346411Xy?',                        # 你的数据库password
-        'HOST': '120.79.31.177',                   # 开发的时候，使用localhost
+        'USER': 'root',                        # 你的数据库user
+        'PASSWORD': 'cqcet1234',                        # 你的数据库password
+        'HOST': '10.150.11.34',                   # 开发的时候，使用localhost
         'PORT': '3306',                        # 默认3306
     },
 }
